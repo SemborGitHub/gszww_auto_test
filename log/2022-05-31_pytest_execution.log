@@ -1,0 +1,1057 @@
+[2022-05-31 11:27:05]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 11:27:05]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 11:27:05]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 11:27:05]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 11:27:05]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 11:27:05]- __init__ (chromehelper.py):52 -[DEBUG] The chrome will use Incognito mode
+[2022-05-31 11:27:05]- __init__ (chromehelper.py):55 -[DEBUG] The chrome will be headless
+[2022-05-31 11:27:09]- __init__ (chromehelper.py):62 -[ERROR] session not created: This version of ChromeDriver only supports Chrome version 100
+Current browser version is 102.0.5005.63 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+[2022-05-31 14:30:27]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:30:27]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:30:27]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:30:27]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:30:27]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:30:27]- __init__ (chromehelper.py):52 -[DEBUG] The chrome will use Incognito mode
+[2022-05-31 14:30:27]- __init__ (chromehelper.py):55 -[DEBUG] The chrome will be headless
+[2022-05-31 14:30:30]- __init__ (chromehelper.py):62 -[ERROR] session not created: This version of ChromeDriver only supports Chrome version 100
+Current browser version is 102.0.5005.63 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+[2022-05-31 14:31:38]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:31:38]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:31:38]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:31:38]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:31:38]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:31:38]- __init__ (chromehelper.py):52 -[DEBUG] The chrome will use Incognito mode
+[2022-05-31 14:31:38]- __init__ (chromehelper.py):55 -[DEBUG] The chrome will be headless
+[2022-05-31 14:31:41]- __init__ (chromehelper.py):62 -[ERROR] session not created: This version of ChromeDriver only supports Chrome version 100
+Current browser version is 102.0.5005.63 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+[2022-05-31 14:33:29]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:33:29]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:33:29]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:33:29]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:33:29]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:33:29]- __init__ (chromehelper.py):52 -[DEBUG] The chrome will use Incognito mode
+[2022-05-31 14:33:29]- __init__ (chromehelper.py):55 -[DEBUG] The chrome will be headless
+[2022-05-31 14:33:31]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 14:33:31]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 14:33:31]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 14:33:39]- <module> (demo2.py):7 -[INFO] CDwindow-8CAA4015C04694B49CE3948498478725
+[2022-05-31 14:33:56]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:33:56]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:33:56]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:33:56]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:33:56]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:33:56]- __init__ (chromehelper.py):52 -[DEBUG] The chrome will use Incognito mode
+[2022-05-31 14:33:56]- __init__ (chromehelper.py):55 -[DEBUG] The chrome will be headless
+[2022-05-31 14:33:57]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 14:33:57]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 14:33:57]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 14:33:58]- <module> (demo2.py):7 -[INFO] CDwindow-9930E0E78D7B1310C36BB5F77CAA9DF6
+[2022-05-31 14:34:39]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:34:39]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:34:39]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:34:39]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:34:39]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:34:40]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 14:34:40]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 14:34:40]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 14:34:43]- <module> (demo2.py):7 -[INFO] CDwindow-D47CC3693FCE1174A8B1A6F8E64DFED9
+[2022-05-31 14:35:17]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:35:17]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:35:17]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:35:17]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:35:17]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:35:18]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 14:35:18]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 14:35:18]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 14:35:20]- <module> (demo2.py):7 -[INFO] CDwindow-6B69BB676D3BE69320333AC8A067365E
+[2022-05-31 14:35:22]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 14:37:48]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:37:48]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:37:48]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:37:48]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:37:48]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:37:49]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 14:37:49]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 14:37:49]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 14:37:51]- <module> (demo2.py):9 -[INFO] CDwindow-0CEAB32F217CF4C673857F31E288EFEA
+[2022-05-31 14:37:51]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:37:54]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 14:37:54]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 6a7d077b-2bdc-4f71-92f5-a4f411e54389
+[2022-05-31 14:38:00]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 14:38:00]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 6a7d077b-2bdc-4f71-92f5-a4f411e54389 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 14:38:00]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 14:38:00]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: c589043e-bca8-47ce-8a44-8ce523583aca
+[2022-05-31 14:38:00]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:38:00]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: c589043e-bca8-47ce-8a44-8ce523583aca , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:38:01]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:38:08]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 14:41:13]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 14:41:13]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 14:41:14]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 14:41:14]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 14:41:14]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 14:41:15]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 14:41:15]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 14:41:15]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 14:41:16]- <module> (demo2.py):9 -[INFO] CDwindow-4395CA90DB319A120A547C6212295DE6
+[2022-05-31 14:41:16]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:41:19]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 14:41:19]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 302ff207-db96-4ea9-be87-ffad024b3f78
+[2022-05-31 14:41:25]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 14:41:25]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 302ff207-db96-4ea9-be87-ffad024b3f78 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 14:41:25]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 14:41:25]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 7335f8e5-a22f-4d6d-bfdb-8e22665d2ee3
+[2022-05-31 14:41:25]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:41:25]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 7335f8e5-a22f-4d6d-bfdb-8e22665d2ee3 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:41:26]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 14:41:33]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 15:21:32]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:21:32]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:21:32]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:21:32]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:21:32]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:21:33]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:21:33]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:21:33]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:21:34]- <module> (demo2.py):9 -[INFO] CDwindow-304DAF2B6425F0268B1A8B7E3B0C5EAA
+[2022-05-31 15:21:34]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:21:37]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:21:37]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: f85bd9de-62e5-4404-8f8c-2b2dcf740ad3
+[2022-05-31 15:21:44]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:21:44]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: f85bd9de-62e5-4404-8f8c-2b2dcf740ad3 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:21:44]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:21:44]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 50a66c69-65b3-4acc-a85c-468f15812cab
+[2022-05-31 15:21:44]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:21:44]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 50a66c69-65b3-4acc-a85c-468f15812cab , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:21:45]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:24:17]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:24:17]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:24:17]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:24:17]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:24:17]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:24:18]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:24:18]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:24:18]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:24:20]- <module> (demo2.py):9 -[INFO] CDwindow-274713F3A26878980BE052C224A876B0
+[2022-05-31 15:24:20]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:24:23]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:24:23]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: d5ae7877-50db-40ef-ab7d-e6dd500bada7
+[2022-05-31 15:24:29]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:24:29]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: d5ae7877-50db-40ef-ab7d-e6dd500bada7 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:24:29]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:24:29]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 3983197a-34e2-4785-bba8-8785314be064
+[2022-05-31 15:24:29]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:24:29]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 3983197a-34e2-4785-bba8-8785314be064 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:24:29]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:24:32]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:24:32]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:24:42]- find_element (chromehelper.py):159 -[ERROR] 
+[2022-05-31 15:24:44]- auto_set_window_size (chromehelper.py):191 -[DEBUG] Set the window size: 1552 x 1161
+[2022-05-31 15:24:45]- get_screenshot (chromehelper.py):208 -[INFO] Capture current screenshot, and save as png file: D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\log\ScreenShots\2022-05-31_15-24-42_16.png
+[2022-05-31 15:26:25]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:26:25]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:26:25]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:26:25]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:26:25]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:26:26]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:26:26]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:26:26]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:26:28]- <module> (demo2.py):9 -[INFO] CDwindow-2665F77356725368918762F8F9483038
+[2022-05-31 15:26:28]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:26:31]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:26:31]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 1ffe849a-b2b3-4d12-8e84-85559a6fcb6e
+[2022-05-31 15:26:37]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:26:37]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 1ffe849a-b2b3-4d12-8e84-85559a6fcb6e , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:26:37]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:26:37]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: e58c3871-807d-4283-b22d-9e22858f158f
+[2022-05-31 15:26:37]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:26:37]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: e58c3871-807d-4283-b22d-9e22858f158f , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:26:38]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:26:40]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:26:40]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:26:50]- find_element (chromehelper.py):159 -[ERROR] 
+[2022-05-31 15:26:52]- auto_set_window_size (chromehelper.py):191 -[DEBUG] Set the window size: 1552 x 1161
+[2022-05-31 15:26:53]- get_screenshot (chromehelper.py):208 -[INFO] Capture current screenshot, and save as png file: D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\log\ScreenShots\2022-05-31_15-26-50_19.png
+[2022-05-31 15:29:20]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:29:20]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:29:21]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:29:21]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:29:21]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:29:22]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:29:22]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:29:22]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:29:23]- <module> (demo2.py):9 -[INFO] CDwindow-B91673D0F5383916C63D4A3647DEDB16
+[2022-05-31 15:29:23]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:29:26]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:29:26]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 973b8d43-bcc5-490f-97fc-a4ba1b794d21
+[2022-05-31 15:29:32]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:29:32]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 973b8d43-bcc5-490f-97fc-a4ba1b794d21 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:29:32]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:29:32]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 13a5adee-699e-4b61-a120-f284304cd7f5
+[2022-05-31 15:29:32]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:29:32]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 13a5adee-699e-4b61-a120-f284304cd7f5 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:29:33]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:29:35]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:29:35]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:29:42]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 15:30:05]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:30:05]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:30:05]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:30:05]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:30:05]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:30:07]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:30:07]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:30:07]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:30:09]- <module> (demo2.py):9 -[INFO] CDwindow-5A0AAE100D7162CFF8FF1023416EE08D
+[2022-05-31 15:30:09]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:30:12]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:30:12]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: a2c2af92-053e-4318-a3cc-85dc070f098e
+[2022-05-31 15:30:18]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:30:18]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: a2c2af92-053e-4318-a3cc-85dc070f098e , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:30:18]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:30:18]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 114326e3-3998-4b0d-8140-f91b18ef7f36
+[2022-05-31 15:30:18]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:30:18]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 114326e3-3998-4b0d-8140-f91b18ef7f36 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:30:18]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:30:21]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:30:21]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:30:28]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 15:30:50]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:30:50]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:30:50]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:30:50]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:30:50]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:30:52]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:30:52]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:30:52]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:30:53]- <module> (demo2.py):9 -[INFO] CDwindow-CB1E24A1125BF67D650180B28B6D5580
+[2022-05-31 15:30:53]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:30:56]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:30:56]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: ec2ae5ef-307b-46df-ae1f-e7390577f0e5
+[2022-05-31 15:31:02]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:31:02]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: ec2ae5ef-307b-46df-ae1f-e7390577f0e5 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:31:02]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:31:02]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 49ae3480-8b66-431e-bbf0-c84f8b5525ed
+[2022-05-31 15:31:02]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:31:02]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 49ae3480-8b66-431e-bbf0-c84f8b5525ed , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:31:03]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:31:05]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:31:05]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:31:12]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 15:34:10]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:34:10]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:34:11]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:34:11]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:34:11]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:34:12]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:34:12]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:34:12]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:34:13]- <module> (demo2.py):10 -[INFO] CDwindow-F5017D63FCEE7E1E0D6BC76C43265FF9
+[2022-05-31 15:34:13]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:34:16]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:34:16]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 6a741916-edc1-4fdd-a78d-c39448152a3c
+[2022-05-31 15:34:22]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:34:22]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 6a741916-edc1-4fdd-a78d-c39448152a3c , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:34:22]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:34:22]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: e85d5dfa-7bc4-4c85-88ae-bc8bbbc1d7ba
+[2022-05-31 15:34:22]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:34:22]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: e85d5dfa-7bc4-4c85-88ae-bc8bbbc1d7ba , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:34:23]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:34:25]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:34:25]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:35:13]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:35:13]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:35:13]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:35:13]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:35:13]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:35:14]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:35:14]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:35:14]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:35:15]- <module> (demo2.py):10 -[INFO] CDwindow-C6144C541FECA94ACE77E61032C761BF
+[2022-05-31 15:35:15]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:35:18]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:35:18]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 41765156-64e9-44c5-95c3-c631ae439183
+[2022-05-31 15:35:24]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:35:24]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 41765156-64e9-44c5-95c3-c631ae439183 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:35:24]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:35:24]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 9f32eb08-1980-48b4-9ae6-94bddeab4710
+[2022-05-31 15:35:24]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:35:24]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 9f32eb08-1980-48b4-9ae6-94bddeab4710 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:35:25]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:35:27]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:35:27]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:39:19]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:39:19]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:39:20]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:39:20]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:39:20]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:39:21]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:39:21]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:39:21]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:39:22]- <module> (demo2.py):10 -[INFO] CDwindow-9278F455B50051E3D9556CB2BB82B03A
+[2022-05-31 15:39:22]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:39:25]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:39:25]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: e2fea36d-4594-4b02-8e64-8a7b5c77f805
+[2022-05-31 15:39:31]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:39:31]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: e2fea36d-4594-4b02-8e64-8a7b5c77f805 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:39:31]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:39:31]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 4d91d505-7a89-4c26-8614-ca7e7dae2cc8
+[2022-05-31 15:39:31]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:39:31]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 4d91d505-7a89-4c26-8614-ca7e7dae2cc8 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:39:32]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:39:34]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:39:34]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:49:25]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 15:49:25]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 15:49:25]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 15:49:25]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 15:49:25]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 15:49:26]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 15:49:26]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 15:49:26]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 15:49:27]- <module> (demo2.py):10 -[INFO] CDwindow-0FA9CBD23CC22FFF5BEC9E5B7ACA27A8
+[2022-05-31 15:49:27]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:49:30]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 15:49:30]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: d8af5931-9a90-4cda-bcb8-cda42b104f7d
+[2022-05-31 15:49:37]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 15:49:37]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: d8af5931-9a90-4cda-bcb8-cda42b104f7d , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 15:49:37]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 15:49:37]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: d27cab7c-fc7c-43e8-a82a-2d4ff4ae268d
+[2022-05-31 15:49:37]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:49:37]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: d27cab7c-fc7c-43e8-a82a-2d4ff4ae268d , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:49:38]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 15:49:41]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:49:41]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 15:49:41]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 15:49:41]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 15:49:48]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:07:40]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:07:40]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:07:40]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:07:40]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:07:40]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:07:41]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:07:41]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:07:41]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:07:42]- <module> (demo2.py):10 -[INFO] CDwindow-0C1FE313C6FCAD47AF6ED84000E489D9
+[2022-05-31 16:07:42]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:07:45]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:07:45]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 869dc32e-5816-4ec6-9e0a-c5aa0cf9cf39
+[2022-05-31 16:07:52]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:07:52]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 869dc32e-5816-4ec6-9e0a-c5aa0cf9cf39 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:07:52]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:07:52]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: b0bfbef9-4fb3-44e1-9987-680bb5374585
+[2022-05-31 16:07:52]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:07:52]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: b0bfbef9-4fb3-44e1-9987-680bb5374585 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:07:52]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:07:54]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:07:54]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:08:36]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:08:36]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:08:36]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:08:36]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:08:36]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:08:38]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:08:38]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:08:38]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:08:39]- <module> (demo2.py):10 -[INFO] CDwindow-B3294E83B778D9DB3E57EE4528EF1CCE
+[2022-05-31 16:08:39]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:08:42]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:08:42]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 3e313012-5117-47dc-b386-d61c645d368a
+[2022-05-31 16:08:48]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:08:48]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 3e313012-5117-47dc-b386-d61c645d368a , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:08:48]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:08:48]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: b0ba107a-b937-4c63-9521-5367cfe4c1e6
+[2022-05-31 16:08:48]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:08:48]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: b0ba107a-b937-4c63-9521-5367cfe4c1e6 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:08:49]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:08:51]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:08:51]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:08:58]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:09:17]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:09:17]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:09:17]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:09:17]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:09:17]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:09:18]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:09:18]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:09:18]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:09:20]- <module> (demo2.py):10 -[INFO] CDwindow-BBE15AF507B6EB9A80724CDB488FFE57
+[2022-05-31 16:09:20]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:09:23]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:09:23]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: b7f77b9d-3286-4144-bee8-efc2be884d8e
+[2022-05-31 16:09:29]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:09:29]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: b7f77b9d-3286-4144-bee8-efc2be884d8e , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:09:29]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:09:29]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 9caee61d-c551-4952-8547-195d11cc8bf3
+[2022-05-31 16:09:29]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:09:29]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 9caee61d-c551-4952-8547-195d11cc8bf3 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:09:30]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:09:32]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:09:32]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:09:39]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:10:50]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:10:50]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:10:50]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:10:50]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:10:50]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:10:51]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:10:51]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:10:51]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:10:53]- <module> (demo2.py):10 -[INFO] CDwindow-D37CFE110DB90620C6BE00AC426FFA17
+[2022-05-31 16:10:53]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:10:56]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:10:56]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: ad25de8a-d848-4221-a538-d37bcd159877
+[2022-05-31 16:11:02]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:11:02]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: ad25de8a-d848-4221-a538-d37bcd159877 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:11:02]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:11:02]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 22132298-ce57-4dff-a00c-3d5f55da14a6
+[2022-05-31 16:11:02]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:11:02]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 22132298-ce57-4dff-a00c-3d5f55da14a6 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:11:02]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:11:04]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:11:05]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:11:45]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:11:45]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:11:45]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:11:45]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:11:45]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:11:46]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:11:46]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:11:46]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:11:49]- <module> (demo2.py):10 -[INFO] CDwindow-B82296711C4C5AEBD13F0A9D405DE1EF
+[2022-05-31 16:11:49]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:11:52]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:11:52]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: f732761f-45d5-4df9-a21a-9e3551f66c95
+[2022-05-31 16:11:58]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:11:58]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: f732761f-45d5-4df9-a21a-9e3551f66c95 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:11:58]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:11:59]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 03f541c9-9f20-4b07-8bb2-0a9025623f1f
+[2022-05-31 16:11:59]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:11:59]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 03f541c9-9f20-4b07-8bb2-0a9025623f1f , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:11:59]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:12:01]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:12:01]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:12:40]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:12:40]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:12:40]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:12:40]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:12:40]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:12:41]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:12:41]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:12:41]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:12:42]- <module> (demo2.py):10 -[INFO] CDwindow-7E06EBB275C30EDA1833010DF9D6351F
+[2022-05-31 16:12:42]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:12:45]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:12:45]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 24095d8d-ed35-4371-9e8b-456cb53e8b67
+[2022-05-31 16:12:51]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:12:51]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 24095d8d-ed35-4371-9e8b-456cb53e8b67 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:12:51]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:12:51]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 351b2b44-7282-48dd-86b5-ccf003faea1b
+[2022-05-31 16:12:51]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:12:51]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 351b2b44-7282-48dd-86b5-ccf003faea1b , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:12:53]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:12:55]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:12:55]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:12:55]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:12:55]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:13:03]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:17:11]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:17:11]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:17:11]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:17:11]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:17:11]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:17:12]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:17:12]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:17:12]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:17:14]- <module> (demo2.py):10 -[INFO] CDwindow-5A6A491E4F650FF4155008986C069327
+[2022-05-31 16:17:14]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:17:17]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:17:17]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 4a1a7af5-effa-49c5-a7b9-2a544db1b1e6
+[2022-05-31 16:17:23]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:17:23]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 4a1a7af5-effa-49c5-a7b9-2a544db1b1e6 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:17:23]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:17:23]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 10c29bf9-253f-400b-a072-fabea4ba85be
+[2022-05-31 16:17:23]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:17:23]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 10c29bf9-253f-400b-a072-fabea4ba85be , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:17:24]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:17:26]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:17:26]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:17:26]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134935 in the input box: username
+[2022-05-31 16:17:26]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:17:26]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:17:26]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:17:26]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:17:26]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:17:26]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:17:26]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:17:34]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:18:13]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:18:13]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:18:13]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:18:13]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:18:13]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:18:14]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:18:14]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:18:14]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:18:15]- <module> (demo2.py):10 -[INFO] CDwindow-DB71DDC375CB68FFFE56DD1ABB09FD75
+[2022-05-31 16:18:15]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:18]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:18:18]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 63e19a18-26a0-4e9e-9492-b3b06c54a7ea
+[2022-05-31 16:18:24]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:18:24]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 63e19a18-26a0-4e9e-9492-b3b06c54a7ea , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:18:24]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:18:24]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 9650b14f-d36a-47d9-96cb-8c527d94b262
+[2022-05-31 16:18:24]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:24]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 9650b14f-d36a-47d9-96cb-8c527d94b262 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:25]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:27]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:18:27]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:18:27]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134935 in the input box: username
+[2022-05-31 16:18:27]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:18:27]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:18:27]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:18:27]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:18:27]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:18:27]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:18:27]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:18:29]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:18:29]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:18:31]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:18:35]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:18:40]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:18:40]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:18:40]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:18:40]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:18:40]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:18:41]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:18:41]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:18:41]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:18:42]- <module> (demo2.py):10 -[INFO] CDwindow-755710E8E354CA9D6C086CA589A6F2A6
+[2022-05-31 16:18:42]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:45]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:18:45]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 31a7fa94-b17c-45f3-aa11-84e76ec6dd73
+[2022-05-31 16:18:51]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:18:51]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 31a7fa94-b17c-45f3-aa11-84e76ec6dd73 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:18:51]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:18:51]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 18b142b1-bec7-49d8-9847-597607184bf8
+[2022-05-31 16:18:51]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:51]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 18b142b1-bec7-49d8-9847-597607184bf8 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:52]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:18:54]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:18:54]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:18:54]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134935 in the input box: username
+[2022-05-31 16:18:54]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:18:54]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:18:54]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:18:54]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:18:54]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:18:54]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:18:54]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:18:56]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:18:56]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:18:57]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:19:01]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:19:26]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:19:26]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:19:26]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:19:26]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:19:26]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:19:27]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:19:27]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:19:27]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:19:28]- <module> (demo2.py):10 -[INFO] CDwindow-23D8AC61BF9BF44CE819FDC794064A4D
+[2022-05-31 16:19:28]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:19:31]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:19:31]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 6d1cd0f6-e37b-49c4-9b8a-0397244e2b87
+[2022-05-31 16:19:37]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:19:37]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 6d1cd0f6-e37b-49c4-9b8a-0397244e2b87 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:19:37]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:19:37]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 962d5229-539a-4afa-92c2-08e3e94fd534
+[2022-05-31 16:19:37]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:19:37]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 962d5229-539a-4afa-92c2-08e3e94fd534 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:19:38]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:19:40]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:19:40]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:19:40]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:19:40]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:19:42]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:19:42]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:19:42]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134935 in the input box: username
+[2022-05-31 16:19:42]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:19:42]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:19:42]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:19:43]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:19:43]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:19:44]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:19:48]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:20:39]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:20:39]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:20:39]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:20:39]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:20:39]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:20:41]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:20:41]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:20:41]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:20:42]- <module> (demo2.py):10 -[INFO] CDwindow-811E6315396C153155A3CF84CB6CD37F
+[2022-05-31 16:20:42]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:20:45]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:20:45]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 9f824b4b-6193-4726-ada4-8572c09caf1e
+[2022-05-31 16:20:51]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:20:51]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 9f824b4b-6193-4726-ada4-8572c09caf1e , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:20:51]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:20:51]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: d231c3ac-0e40-4d79-98af-1d867c49a860
+[2022-05-31 16:20:51]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:20:51]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: d231c3ac-0e40-4d79-98af-1d867c49a860 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:20:52]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:20:54]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:20:54]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:20:54]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:20:54]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:20:55]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:20:55]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:20:56]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134395 in the input box: username
+[2022-05-31 16:20:56]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:20:56]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:20:56]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:20:57]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:20:57]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:20:58]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:21:02]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:21:06]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:21:06]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:21:06]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:21:06]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:21:06]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:21:07]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:21:07]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:21:07]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:21:09]- <module> (demo2.py):10 -[INFO] CDwindow-3439F028B7FE6918D43005329BA2E1AD
+[2022-05-31 16:21:09]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:21:12]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:21:12]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 07628d06-ddf8-451b-abdc-f4d3c7cd269a
+[2022-05-31 16:21:18]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:21:18]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 07628d06-ddf8-451b-abdc-f4d3c7cd269a , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:21:18]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:21:18]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 3498ae1f-eeff-45d1-9636-a28597a7eb1b
+[2022-05-31 16:21:18]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:21:18]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 3498ae1f-eeff-45d1-9636-a28597a7eb1b , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:21:19]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:21:21]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:21:21]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:21:21]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:21:21]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:21:22]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:21:22]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:21:22]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134395 in the input box: username
+[2022-05-31 16:21:22]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:21:22]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:21:22]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:21:23]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:21:24]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:21:25]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:21:29]- close_chrome (chromehelper.py):85 -[INFO] Close chrome successfully (^_^)
+[2022-05-31 16:45:06]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:45:06]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:45:06]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:45:06]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:45:06]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:45:07]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:45:07]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:45:07]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:45:09]- user_login (userlogin.py):20 -[INFO] CDwindow-920DF1DA391ADB51B4BF4DC945D34BB0
+[2022-05-31 16:45:09]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:45:12]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:45:12]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: b32d0eb1-01da-45d0-9df6-a4cfbe725c45
+[2022-05-31 16:45:18]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:45:18]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: b32d0eb1-01da-45d0-9df6-a4cfbe725c45 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:45:18]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:45:18]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 1470557b-bd65-497a-8fc4-739800e4c0bb
+[2022-05-31 16:45:18]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:45:18]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 1470557b-bd65-497a-8fc4-739800e4c0bb , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:45:19]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:45:21]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:45:21]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:45:21]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:45:21]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:45:21]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:45:21]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:45:21]- input_keys (chromehelper.py):249 -[ERROR] 'long' object has no attribute 'decode'
+[2022-05-31 16:45:23]- auto_set_window_size (chromehelper.py):191 -[DEBUG] Set the window size: 1552 x 1161
+[2022-05-31 16:45:24]- get_screenshot (chromehelper.py):208 -[INFO] Capture current screenshot, and save as png file: D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\log\ScreenShots\2022-05-31_16-45-21_13.png
+[2022-05-31 16:47:20]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:47:20]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:47:20]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:47:20]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:47:20]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:47:21]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:47:21]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:47:21]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:47:22]- user_login (userlogin.py):20 -[INFO] CDwindow-1D640A3972338FCDA130026F88A8E185
+[2022-05-31 16:47:22]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:47:25]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:47:25]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 75b4498e-ca75-402d-a202-d01355279b8b
+[2022-05-31 16:47:31]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:47:31]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 75b4498e-ca75-402d-a202-d01355279b8b , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:47:31]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:47:31]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 374c08b7-4f22-451e-8fed-7943f43ac703
+[2022-05-31 16:47:31]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:47:31]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 374c08b7-4f22-451e-8fed-7943f43ac703 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:47:32]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:47:34]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:47:34]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:47:34]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:47:34]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:47:35]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:47:35]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:47:35]- input_keys (chromehelper.py):249 -[ERROR] object of type 'long' has no len()
+[2022-05-31 16:47:37]- auto_set_window_size (chromehelper.py):191 -[DEBUG] Set the window size: 1552 x 1161
+[2022-05-31 16:47:37]- get_screenshot (chromehelper.py):208 -[INFO] Capture current screenshot, and save as png file: D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\log\ScreenShots\2022-05-31_16-47-35_16.png
+[2022-05-31 16:49:58]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:49:58]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:49:58]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:49:58]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:49:58]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:49:59]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:49:59]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:49:59]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:50:01]- user_login (userlogin.py):20 -[INFO] CDwindow-B0562D032F31F0C05BE57CE0BBBEBE2C
+[2022-05-31 16:50:01]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:50:04]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:50:04]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: bcb3ab8c-2306-45ca-a9fa-2d3424902b4e
+[2022-05-31 16:50:10]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:50:10]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: bcb3ab8c-2306-45ca-a9fa-2d3424902b4e , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:50:10]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:50:10]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 2e7086a4-a7ab-4990-bb80-04542e18127d
+[2022-05-31 16:50:10]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:50:10]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 2e7086a4-a7ab-4990-bb80-04542e18127d , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:50:11]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:50:13]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:50:13]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:50:13]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:50:13]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:50:14]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:50:14]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:50:14]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134395 in the input box: username
+[2022-05-31 16:50:14]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:50:14]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:50:14]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:50:14]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:50:14]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:50:16]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:53:38]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:53:38]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:53:38]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:53:38]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:53:38]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:53:39]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:53:39]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:53:39]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:53:41]- user_login (userlogin.py):20 -[INFO] CDwindow-C75136C0B9E03959FE2EA13A054A6161
+[2022-05-31 16:53:41]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:53:44]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 16:53:44]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: cd182297-eef4-412d-96be-24ef090167d5
+[2022-05-31 16:53:50]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 16:53:50]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: cd182297-eef4-412d-96be-24ef090167d5 , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 16:53:50]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 16:53:50]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: b864d2ca-45f9-494b-97ae-0a5fb26f032e
+[2022-05-31 16:53:50]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:53:50]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: b864d2ca-45f9-494b-97ae-0a5fb26f032e , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:53:50]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 16:53:52]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:53:52]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 16:53:52]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:53:52]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 16:53:53]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 16:53:53]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 16:53:53]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134395 in the input box: username
+[2022-05-31 16:53:53]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 16:53:53]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 16:53:53]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 16:53:53]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:53:53]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:53:55]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 16:56:40]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 16:56:40]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 16:56:40]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 16:56:40]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 16:56:40]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 16:56:41]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 16:56:41]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 16:56:41]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 16:56:43]- <module> (demo1.py):7 -[INFO] CDwindow-DC8BD1C5EC8B042F4104301A9D361989
+[2022-05-31 16:56:43]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //input[@id='ty-search-input']
+[2022-05-31 16:56:43]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //input[@id='ty-search-input']
+[2022-05-31 16:56:43]- input_keys (chromehelper.py):249 -[ERROR] 
+[2022-05-31 16:56:45]- auto_set_window_size (chromehelper.py):191 -[DEBUG] Set the window size: 1552 x 3346
+[2022-05-31 16:56:46]- get_screenshot (chromehelper.py):208 -[INFO] Capture current screenshot, and save as png file: D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\log\ScreenShots\2022-05-31_16-56-43_17.png
+[2022-05-31 17:02:34]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:02:34]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:02:34]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:02:34]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:02:34]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:02:35]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:02:35]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:02:48]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:02:48]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:02:49]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:02:49]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:02:49]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:02:50]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:02:50]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:02:50]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:02:51]- user_login (userlogin.py):20 -[INFO] CDwindow-ED3AF02B80476F0AAB6C8442147464DC
+[2022-05-31 17:02:51]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 17:02:54]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 17:02:54]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 243b96a5-a9f4-43e9-be87-c414f127811e
+[2022-05-31 17:03:00]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 17:03:00]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 243b96a5-a9f4-43e9-be87-c414f127811e , can not find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a , continue to find.
+[2022-05-31 17:03:00]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 17:03:00]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 63783c83-9eb4-4b10-9b8d-277488d0faf6
+[2022-05-31 17:03:00]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 17:03:00]- cycle_to_find (chromehelper.py):112 -[DEBUG] After switch to the frame: 63783c83-9eb4-4b10-9b8d-277488d0faf6 , find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 17:03:01]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 17:03:03]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 17:03:03]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div/div
+[2022-05-31 17:03:03]- find_element (chromehelper.py):149 -[INFO] Start to find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 17:03:03]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: /html/body/div[2]/div/div[2]/div[2]/ul/li[1]/div[3]/div[1]/form/div[3]/div/div[2]/div/div
+[2022-05-31 17:03:04]- find_element (chromehelper.py):149 -[INFO] Start to find the element: username
+[2022-05-31 17:03:04]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: username
+[2022-05-31 17:03:04]- input_keys (chromehelper.py):243 -[INFO] Input the value: 17316134395 in the input box: username
+[2022-05-31 17:03:04]- find_element (chromehelper.py):149 -[INFO] Start to find the element: password
+[2022-05-31 17:03:04]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: password
+[2022-05-31 17:03:04]- input_keys (chromehelper.py):243 -[INFO] Input the value: XWH333111## in the input box: password
+[2022-05-31 17:03:04]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 17:03:04]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 17:03:06]- click_element (chromehelper.py):171 -[INFO] Click the element: //*[@id="userloginform"]/div[5]/button
+[2022-05-31 17:03:25]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:03:25]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:03:25]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:03:25]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:03:25]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:03:26]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:03:26]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:03:26]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:03:30]- <module> (demo1.py):7 -[INFO] CDwindow-AAC51C2EF59699801FAEA24FA9098AF8
+[2022-05-31 17:03:30]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //input[@id='ty-search-input']
+[2022-05-31 17:03:30]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //input[@id='ty-search-input']
+[2022-05-31 17:03:30]- input_keys (chromehelper.py):249 -[ERROR] 
+[2022-05-31 17:03:32]- auto_set_window_size (chromehelper.py):191 -[DEBUG] Set the window size: 1552 x 3346
+[2022-05-31 17:03:32]- get_screenshot (chromehelper.py):208 -[INFO] Capture current screenshot, and save as png file: D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\log\ScreenShots\2022-05-31_17-03-30_18.png
+[2022-05-31 17:03:59]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:03:59]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:03:59]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:03:59]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:03:59]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:04:00]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:04:00]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:04:00]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:04:02]- <module> (demo1.py):7 -[INFO] CDwindow-AEA655C9B41BE35727D72A9218130145
+[2022-05-31 17:04:02]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //input[@id='ty-search-input']
+[2022-05-31 17:04:02]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //input[@id='ty-search-input']
+[2022-05-31 17:04:02]- input_keys (chromehelper.py):243 -[INFO] Input the value: 绀句繚 in the input box: //input[@id='ty-search-input']
+[2022-05-31 17:04:02]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //input[@value='鎼滅储']
+[2022-05-31 17:04:02]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //input[@value='鎼滅储']
+[2022-05-31 17:04:02]- click_element (chromehelper.py):171 -[INFO] Click the element: //input[@value='鎼滅储']
+[2022-05-31 17:04:02]- <module> (demo1.py):13 -[INFO] [u'CDwindow-AEA655C9B41BE35727D72A9218130145', u'CDwindow-277981B716B6508CA95F551CC81DCC68']
+[2022-05-31 17:04:02]- <module> (demo1.py):14 -[INFO] CDwindow-AEA655C9B41BE35727D72A9218130145
+[2022-05-31 17:04:02]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //div[@class='content_title_item']//li[@title='鏈嶅姟搴旂敤']
+[2022-05-31 17:04:05]- cycle_to_find (chromehelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 17:04:05]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 0c2b1bf3-23f6-4b7a-adcc-3084501c8724
+[2022-05-31 17:04:11]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 17:04:11]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 0c2b1bf3-23f6-4b7a-adcc-3084501c8724 , can not find the element: //div[@class='content_title_item']//li[@title='鏈嶅姟搴旂敤'] , continue to find.
+[2022-05-31 17:04:11]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 17:04:11]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: 880c8ed8-df1d-4064-bba7-3886c3f617ab
+[2022-05-31 17:04:17]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 17:04:17]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: 880c8ed8-df1d-4064-bba7-3886c3f617ab , can not find the element: //div[@class='content_title_item']//li[@title='鏈嶅姟搴旂敤'] , continue to find.
+[2022-05-31 17:04:17]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 17:04:18]- cycle_to_find (chromehelper.py):101 -[DEBUG] Switch to the frame: c2b850c0-f7c0-48b1-9342-7e7650e22b00
+[2022-05-31 17:04:24]- cycle_to_find (chromehelper.py):96 -[DEBUG] There are no frames: iframe in current content.
+[2022-05-31 17:04:24]- cycle_to_find (chromehelper.py):107 -[DEBUG] After switch to the frame: c2b850c0-f7c0-48b1-9342-7e7650e22b00 , can not find the element: //div[@class='content_title_item']//li[@title='鏈嶅姟搴旂敤'] , continue to find.
+[2022-05-31 17:04:24]- cycle_to_find (chromehelper.py):109 -[DEBUG] Switch to parent frame.
+[2022-05-31 17:04:24]- find_element (chromehelper.py):154 -[ERROR] Can not find the element: //div[@class='content_title_item']//li[@title='鏈嶅姟搴旂敤'] 
+[2022-05-31 17:04:24]- find_element (chromehelper.py):155 -[ERROR] no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='content_title_item']//li[@title='鏈嶅姟搴旂敤']"}
+  (Session info: chrome=102.0.5005.63)
+[2022-05-31 17:05:33]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:05:33]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:05:33]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:05:33]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:05:33]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:05:34]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:05:34]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:05:34]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:05:35]- <module> (demo1.py):7 -[INFO] CDwindow-2880FEFBA63D59D9344650F05CAA7E70
+[2022-05-31 17:05:35]- find_element (chromehelper.py):149 -[INFO] Start to find the element: //input[@id='ty-search-input']
+[2022-05-31 17:05:35]- cycle_to_find (chromehelper.py):91 -[INFO] Find the element: //input[@id='ty-search-input']
+[2022-05-31 17:05:35]- input_keys (chromehelper.py):249 -[ERROR] 
+[2022-05-31 17:05:38]- auto_set_window_size (chromehelper.py):191 -[DEBUG] Set the window size: 1552 x 3346
+[2022-05-31 17:05:38]- get_screenshot (chromehelper.py):208 -[INFO] Capture current screenshot, and save as png file: D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\log\ScreenShots\2022-05-31_17-05-35_14.png
+[2022-05-31 17:09:26]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:09:26]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:09:26]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:09:26]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:09:26]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:09:27]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:09:27]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:09:27]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:09:45]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:09:45]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:09:45]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:09:45]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:09:45]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:09:46]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:09:46]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:09:46]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:10:42]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:10:42]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:10:42]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:10:42]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:10:42]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:10:44]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:10:44]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:10:44]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:11:33]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:11:33]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:11:34]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:11:34]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:11:34]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:11:35]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:11:35]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:11:35]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:15:07]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:15:13]- get_logger (loggerhelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:15:13]- kill_chromedriver (chromehelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:15:13]- kill_chromedriver (chromehelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:15:13]- check_chromedriver (chromehelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:15:13]- check_chromedriver (chromehelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\chromedriver.exe exists.
+[2022-05-31 17:15:14]- __init__ (chromehelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:15:14]- __init__ (chromehelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:15:14]- open_chrome (chromehelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:20:28]- get_logger (LoggerHelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:20:28]- kill_chromedriver (ChromeHelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:20:28]- kill_chromedriver (ChromeHelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:20:28]- check_chromedriver (ChromeHelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:20:28]- check_chromedriver (ChromeHelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\../Http/chromedriver.exe exists.
+[2022-05-31 17:20:29]- __init__ (ChromeHelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:20:29]- __init__ (ChromeHelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:20:29]- open_chrome (ChromeHelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:20:32]- user_login (UserLogin.py):20 -[INFO] CDwindow-6CAE9D77373AB014DCFA284032B2A2D0
+[2022-05-31 17:20:32]- find_element (ChromeHelper.py):149 -[INFO] Start to find the element: //*[@id="barrierfree_container"]/div/div[2]/div/div[1]/div[1]/div[2]/p/a
+[2022-05-31 17:20:35]- cycle_to_find (ChromeHelper.py):98 -[DEBUG] Switch to the list of frames to find the element......
+[2022-05-31 17:20:35]- cycle_to_find (ChromeHelper.py):101 -[DEBUG] Switch to the frame: 0.604585343948568-1
+[2022-05-31 17:20:52]- get_logger (LoggerHelper.py):40 -[DEBUG] Start executing.......
+********************************************************************************************************************************************************************************************************
+
+[2022-05-31 17:20:52]- kill_chromedriver (ChromeHelper.py):18 -[DEBUG] Start to clean testcase's environment...
+[2022-05-31 17:20:53]- kill_chromedriver (ChromeHelper.py):26 -[DEBUG] Finish cleaning testcase's environment.
+[2022-05-31 17:20:53]- check_chromedriver (ChromeHelper.py):30 -[DEBUG] Start to check chromedriver.exe ...
+[2022-05-31 17:20:53]- check_chromedriver (ChromeHelper.py):36 -[DEBUG] D:\办公资料\中移系统集成工作内容\甘肃政务网自动化测试\SeleniumProject\logic\UI\../Http/chromedriver.exe exists.
+[2022-05-31 17:20:54]- __init__ (ChromeHelper.py):58 -[INFO] Open chrome successfully !!!
+[2022-05-31 17:20:54]- __init__ (ChromeHelper.py):60 -[DEBUG] timeout is: 3 s
+[2022-05-31 17:20:54]- open_chrome (ChromeHelper.py):80 -[INFO] Browse the url: https://zwfw.gansu.gov.cn/
+[2022-05-31 17:20:55]- <module> (demo1.py):7 -[INFO] CDwindow-310D5A89D0C5E73877663DC66738EBB3
+[2022-05-31 17:20:55]- find_element (ChromeHelper.py):149 -[INFO] Start to find the element: //input[@id='ty-search-input']
+[2022-05-31 17:20:55]- cycle_to_find (ChromeHelper.py):91 -[INFO] Find the element: //input[@id='ty-search-input']
+[2022-05-31 17:20:55]- input_keys (ChromeHelper.py):243 -[INFO] Input the value: 社保 in the input box: //input[@id='ty-search-input']
+[2022-05-31 17:20:55]- find_element (ChromeHelper.py):149 -[INFO] Start to find the element: //input[@value='搜索']
+[2022-05-31 17:20:55]- cycle_to_find (ChromeHelper.py):91 -[INFO] Find the element: //input[@value='搜索']
+[2022-05-31 17:20:55]- click_element (ChromeHelper.py):171 -[INFO] Click the element: //input[@value='搜索']
+[2022-05-31 17:20:55]- <module> (demo1.py):13 -[INFO] ['CDwindow-310D5A89D0C5E73877663DC66738EBB3', 'CDwindow-951D15B81F220031775AAC8E61C6C8FA']
+[2022-05-31 17:20:55]- <module> (demo1.py):14 -[INFO] CDwindow-310D5A89D0C5E73877663DC66738EBB3
