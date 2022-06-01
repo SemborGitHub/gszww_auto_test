@@ -1,0 +1,5 @@
+高校毕业生报到登记-http://ks.rst.gansu.gov.cn/:应用名称不匹配，没有该应用
+社会保障卡-https://wsbs.rst.gansu.gov.cn/event/model/list/2/125/629900:应用名称不匹配，没有该应用
+社会保障卡启用-https://zwfw.gansu.gov.cn/api/sso/loginTrust?backUrl=https://wsbs.rst.gansu.gov.cn/auth/sso/trust/common/L3ByaXZhdGUvbmF2L3NiX3NieHhjeCUzRnR5cGUlM0Qy:存在应用且请求该应用响应为:404。当前访问的地址为:https://zwfw.gansu.gov.cn/zwcsx/srst/art/2021/art_960f00ef11144928998a4ca87f92fe3c.html
+甘肃人社生物识别认证-https://wsbs.rst.gansu.gov.cn/event/info/6200000RS0081629900:存在应用且请求该应用响应为:404。当前访问的地址为:https://wsbs.rst.gansu.gov.cn/event/model/list/2/342
+城镇职工养老保险待遇测算-https://wsbs.rst.gansu.gov.cn/event/info/6200000RS0196629900:存在应用且请求该应用响应为:404。当前访问的地址为:https://wsbs.rst.gansu.gov.cn/event/model/list/2/448

@@ -1,0 +1,8 @@
+高校毕业生报到登记-http://ks.rst.gansu.gov.cn/:应用名称不匹配，没有该应用
+高校毕业生报到登记-http://ks.rst.gansu.gov.cn/:存在应用且请求该应用响应为:200。当前访问的地址为:https://zwfw.gansu.gov.cn/api-gateway/jpaas-jsearch-web-server/search?searchid=b0bbbc5a41754d9aac508984539f1c97&websiteid=620000000000&cateid=ccad893c9abd41a698984bfc98c71242&q=%E9%AB%98%E6%A0%A1%E6%AF%95%E4%B8%9A%E7%94%9F%E6%8A%A5%E5%88%B0%E7%99%BB%E8%AE%B0
+社会保障卡-https://wsbs.rst.gansu.gov.cn/event/model/list/2/125/629900:应用名称不匹配，没有该应用
+社会保障卡-https://wsbs.rst.gansu.gov.cn/event/model/list/2/125/629900:存在应用且请求该应用响应为:200。当前访问的地址为:https://zwfw.gansu.gov.cn/api-gateway/jpaas-jsearch-web-server/search?searchid=b0bbbc5a41754d9aac508984539f1c97&websiteid=620000000000&cateid=ccad893c9abd41a698984bfc98c71242&q=%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C%E5%8D%A1
+社会保障卡启用-https://zwfw.gansu.gov.cn/api/sso/loginTrust?backUrl=https://wsbs.rst.gansu.gov.cn/auth/sso/trust/common/L3ByaXZhdGUvbmF2L3NiX3NieHhjeCUzRnR5cGUlM0Qy:存在应用且请求该应用响应为:404。当前访问的地址为:https://zwfw.gansu.gov.cn/zwcsx/srst/art/2021/art_960f00ef11144928998a4ca87f92fe3c.html
+甘肃人社生物识别认证-https://wsbs.rst.gansu.gov.cn/event/info/6200000RS0081629900:存在应用且请求该应用响应为:404。当前访问的地址为:https://wsbs.rst.gansu.gov.cn/event/model/list/2/342
+城镇职工养老保险待遇测算-https://wsbs.rst.gansu.gov.cn/event/info/6200000RS0196629900:存在应用且请求该应用响应为:404。当前访问的地址为:https://wsbs.rst.gansu.gov.cn/event/model/list/2/448
+建设用地备案查询-http://zrzy.gansu.gov.cn/zrzy/c107692/chaxun_jsba.shtml:存在应用且请求该应用响应为:412。当前访问的地址为:http://zrzy.gansu.gov.cn/zrzy/c107692/chaxun_jsba.shtml

@@ -4,11 +4,12 @@ import time
 import random
 
 from selenium import webdriver
-from selenium.common.exceptions import  NoSuchElementException, WebDriverException
+from selenium.common.exceptions import NoSuchElementException, WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-
+from selenium.webdriver.common.action_chains import ActionChains
+# from exceptions import Exception
 
 from common.LoggerHelper import logger
 from config import conf
@@ -29,7 +30,7 @@ def kill_chromedriver(is_kill_chrome=conf.common.ChromeConfig.isKillChrome):
 def check_chromedriver():
     logger.debug("Start to check chromedriver.exe ...")
     project_path = os.path.dirname(__file__)
-    chromedriver_path = os.path.join(project_path, "../Http/chromedriver.exe")
+    chromedriver_path = os.path.join(project_path, "chromedriver.exe")
     if not os.path.isfile(chromedriver_path):
         logger.error("Can not find the file: %s", str(chromedriver_path))
         raise IOError("The file: " + chromedriver_path + " is not exist!!!")
@@ -46,6 +47,7 @@ class ChromeHelper:
             self.time_out = time_out
             self.xpath = "xpath"
             self.driver = None
+            self.windows_num = 0
             options = webdriver.ChromeOptions()
             # if conf.common.ChromeConfig.isIncognito:
             #     options.add_argument('--incognito')  # 隐身模式（无痕模式）
@@ -79,6 +81,41 @@ class ChromeHelper:
     def open_chrome(self, url):
         logger.info("Browse the url: %s", str(url))
         self.driver.get(str(url))
+        self.windows_num = len(self.driver.window_handles)
+        logger.debug("Current window count: %s", self.windows_num)
+
+    def switch_to_latest_window(self):
+        current_windows_num = len(self.driver.window_handles)
+        if current_windows_num > self.windows_num:
+            latest_window = self.driver.window_handles[-1]
+            self.driver.switch_to.window(latest_window)
+            logger.info("Switch to the latest window: %s", latest_window)
+            self.windows_num = current_windows_num
+            logger.debug("Current window count: %s", self.windows_num)
+
+    def switch_to_default_window(self):
+        default_window = self.driver.window_handles[0]
+        self.driver.switch_to.window(default_window)
+        logger.info("Switch to the default window: %s", default_window)
+
+    def switch_to_window_by_title(self, title):
+        if not title:
+            raise ValueError("The parameter: title can not be null!")
+        for handler in self.driver.window_handles:
+            self.driver.switch_to.window(handler)
+            handler_title = self.driver.title
+            logger.debug("Current window title is: %s", handler_title)
+            if handler_title == title:
+                logger.info("Switch to the window by the title: %s", title)
+                break
+        if self.driver.title != title:
+            logger.error("Can not find the window by the title: %s", title)
+            self.retreat_safely()
+            raise ValueError("Title: " + title + " is wrong!")
+
+    def close_current_window(self):
+        if self.driver is not None:
+            self.driver.close()
 
     def close_chrome(self):
         self.driver.quit()
@@ -130,15 +167,23 @@ class ChromeHelper:
         if value is None or value == "":
             logger.error("The parameter: value can not be null!!!")
             raise ValueError("The parameter: value can not be null!!!")
-        # value = value.decode("utf-8")
-        if by.lower() == "xpath":
+        by = by.lower()
+        if by == "xpath":
             by = By.XPATH
-        elif by.lower() == "id":
+        elif by == "id":
             by = By.ID
-        elif by.lower() == "tag_name":
+        elif by == "tag_name":
             by = By.TAG_NAME
+        elif by == "text":
+            by = By.PARTIAL_LINK_TEXT
+        elif by == "name":
+            by = By.NAME
+        elif by == "class_name":
+            by = By.CLASS_NAME
+        elif by == "css_selector":
+            by = By.CSS_SELECTOR
         else:
-            logger.error("The parameter: by only support xpath/id/tag_name")
+            logger.error("The parameter: by only support xpath/id/tag_name/text/name/class_name/css_selector .")
             raise ValueError("The parameter: by error!!!")
         return by, value
 
@@ -149,6 +194,7 @@ class ChromeHelper:
             logger.info("Start to find the element: %s", value)
             element = self.cycle_to_find(by=by, value=value, frame_tag=frame_tag)
             # WebDriverWait(self.driver, 10, 0.5).until(ec.visibility_of(element))
+            self.windows_num = len(self.driver.window_handles)
             return element
         except NoSuchElementException as no_element:
             logger.error("Can not find the element: %s ", value)
@@ -169,6 +215,7 @@ class ChromeHelper:
             element = self.find_element(by=by, value=value, frame_tag=frame_tag)
             element.click()
             logger.info("Click the element: %s", value)
+            # self.switch_to_latest_window()
         except WebDriverException as wd_err:
             logger.error(wd_err.msg)
             self.retreat_safely()
@@ -211,7 +258,8 @@ class ChromeHelper:
         by, value = self.check_parm(by=by, value=value)
         try:
             self.driver.switch_to.default_content()
-            self.cycle_to_find(by=by, value=value, frame_tag=frame_tag)
+            element = self.cycle_to_find(by=by, value=value, frame_tag=frame_tag)
+            WebDriverWait(self.driver, 10, 0.5).until(ec.visibility_of(element))
             logger.info("Find the element: %s", value)
             return True
         except NoSuchElementException:
@@ -238,9 +286,37 @@ class ChromeHelper:
     def input_keys(self, by, value, keys, frame_tag="iframe"):
         try:
             element = self.find_element(by=by, value=value, frame_tag=frame_tag)
-            # keys = keys.decode("utf-8")
+            element.clear()
             element.send_keys(keys)
             logger.info("Input the value: %s in the input box: %s", keys, value)
+        except WebDriverException as wd_err:
+            logger.error(wd_err.msg)
+            self.retreat_safely()
+            raise wd_err
+        except Exception as err:
+            logger.error(err)
+            self.retreat_safely()
+            raise err
+
+    def get_attribute(self, by, value, attribute, frame_tag="iframe"):
+        try:
+            element = self.find_element(by=by, value=value, frame_tag=frame_tag)
+            value = element.get_attribute(attribute)
+            return value
+        except WebDriverException as wd_err:
+            logger.error(wd_err.msg)
+            self.retreat_safely()
+            raise wd_err
+        except Exception as err:
+            logger.error(err)
+            self.retreat_safely()
+            raise err
+
+    def hold_and_slide(self, by, value, x=0, y=0, frame_tag="iframe"):
+        try:
+            element = self.find_element(by=by, value=value, frame_tag=frame_tag)
+            action = ActionChains(self.driver).click_and_hold(element).move_by_offset(x, y).release()
+            action.perform()
         except WebDriverException as wd_err:
             logger.error(wd_err.msg)
             self.retreat_safely()
