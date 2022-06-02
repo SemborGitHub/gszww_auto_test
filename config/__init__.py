@@ -57,7 +57,7 @@ def read_config():
         if ".cfg" in file_name or ".ini" in file_name:
             file_key = file_name.split(".")[0]
             config_parser = ConfigParser()
-            config_parser.read(filenames=os.path.join(file_path, file_name), encoding="GB18030")
+            config_parser.read(filenames=os.path.join(file_path, file_name), encoding="utf-8")
             dict_config(config_parser.sections(), config_parser, file_key, config)
     return config
 

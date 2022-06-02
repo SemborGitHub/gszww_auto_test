@@ -4,9 +4,16 @@ import datetime
 
 import xlrd
 import requests
+from config import conf
+from lcut_for_search_fun import lcut_for_search_fun
 from common.PortalOperate import user_login
 from common.PortalOperate import search_application
+from common.PortalOperate import switch_locale
+from testcase.write_excel import write_excel
 
+result_data = [
+    ['应用名称', '原文档中的应用地址', '实际访问的应用地址', '访问状态', '应用在政务网是否存在', '是否通过']
+]
 now_time = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
 # 读取excel中的内容
 data = xlrd.open_workbook('../logic/应用信息.xls')
@@ -24,22 +31,24 @@ for i in range(table.nrows - 1):
 print(info_dict)
 # 用户登录
 chrome = user_login()
-#
+# 切换地州区域
+switch_locale(chrome, conf.GSZWW.locale_name.gansu_locale)
 print(chrome.driver.title)
 for i in info_dict:
     application_name = info_dict[i][0]
     application_address = info_dict[i][1]
     all_handles = chrome.driver.window_handles
     chrome.driver.switch_to.window(all_handles[-1])
-
-    search_application(chrome, str(application_name))
+    time.sleep(1)
+    search_application(chrome, str(application_name), conf.GSZWW.locale_name.gansu_locale)
     time.sleep(1)
     try:
         no_result = chrome.driver.find_element_by_xpath(
             '//*[@id="search-form"]/div/div/div[3]/div[1]/div[5]/div/div[2]/span')
         if no_result.text == '此分类下没有数据':
             with open('result_' + now_time + '.txt', 'a') as f:
-                f.write('应用名称：' + application_name + '-' + application_address + '：没有该应用\n')
+                f.write('应用名称：' + application_name + '，文档中访问地址为：' + application_address + '：没有该应用\n')
+            result_data.append([application_name, application_address, '应用不存在', 'error', '没有该应用', '否'])
             continue
     except Exception as e:
         pass
@@ -51,7 +60,8 @@ for i in info_dict:
 
     except Exception as e:
         with open('result_' + now_time + '.txt', 'a') as f:
-            f.write('应用名称：' + application_name + '-' + application_address + '：应用名称不匹配，请核对\n')
+            f.write('应用名称：' + application_name + '，文档中访问地址为：' + application_address + '：应用名称不匹配，请核对\n')
+        result_data.append([application_name, application_address, '应用不存在', 'error', '应用名称不匹配', '否'])
         continue
     all_handles = chrome.driver.window_handles
     chrome.driver.switch_to.window(all_handles[-1])
@@ -77,6 +87,11 @@ for i in info_dict:
 
     with open('result_' + now_time + '.txt', 'a') as f:
         f.write('应用名称：' + application_name + '，文档中访问地址为：' + application_address + '。存在应用且请求该应用响应为：' + str(response_code) + '。当前访问的地址为：' + str(url) + '\n')
+    if str(response_code).startswith('2'):
+        is_pass = '是'
+    else:
+        is_pass = '否'
+    result_data.append([application_name, application_address, url, str(response_code), '存在', is_pass])
     chrome.driver.close()
-
+write_excel(result_data)
 chrome.driver.quit()
