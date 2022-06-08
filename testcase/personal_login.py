@@ -146,8 +146,14 @@ def main():
                 is_same = '一致'
             else:
                 is_same = '不一致'
-            r = requests.get(url, allow_redirects=False, headers=headers, timeout=5)
-            response_code = r.status_code
+            requests_session = requests.Session()
+            selenium_user_agent = chrome.driver.execute_script("return navigator.userAgent;")
+            requests_session.headers.update({"user-agent": selenium_user_agent})
+            for cookie in chrome.driver.get_cookies():
+                requests_session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'])
+            resp = requests_session.get(url, verify=False)
+            # r = requests.get(url, allow_redirects=False, headers=headers, timeout=5)
+            response_code = resp.status_code
             response_code = retry(response_code, url)
 
             if str(response_code).startswith('2') or str(response_code).startswith('3'):
@@ -168,11 +174,13 @@ def main():
             failure_num = failure_num + 1
             img_path = get_screenshot(chrome, application_name, results_path)
 
-        except Exception:
+        except Exception as e:
+
             msg = msg3
             failure_num = failure_num + 1
             img_path = get_screenshot(chrome, application_name, results_path)
             chrome.close_current_window()
+            raise Exception(e)
         finally:
             ans_list = [
                 str(application_name), str(application_address), str(link_url), str(is_same), str(response_code),
