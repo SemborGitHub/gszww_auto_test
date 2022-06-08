@@ -1,5 +1,0 @@
-应用名称;原文档中的应用地址;实际访问的应用地址;访问地址是否等于文档所给地址;访问状态;应用在政务网是否存在;应用名称与页面是否匹配;截图相对路径
-二级注册建筑师执业资格认定（注销注册）;https://zwfw.gansu.gov.cn/api/sso/loginTrust?backUrl=http://zcry.gsszczx.com:84/ciacuserportalxcryweb/SSO/logings.aspx?zczylx=jzs&action=zxzc;http://zcry.gsszczx.com:84/ciacuserportal/Gryh/GsLoginMsg?q=MA71N0UN-5;不一致;200;应用存在;不匹配;..\results\20220608_16-02-17\pics\二级注册建筑师执业资格认定（注销注册）.png;
-军地养老保险关系转移接续申请;https://wsbs.rst.gansu.gov.cn/dn/detail/3/1162000001389768942002014006017/002014006017;https://wsbs.rst.gansu.gov.cn/dn/detail/3/1162000001389768942002014006017/002014006017;一致;200;应用存在;匹配;..\results\20220608_16-02-17\pics\军地养老保险关系转移接续申请.png;
-经营性互联网文化单位延续;http://ccm.mct.gov.cn/;http://ccm.mct.gov.cn/ccnt/hbase/index.html;不一致;200;应用存在;不匹配;..\results\20220608_16-02-17\pics\经营性互联网文化单位延续.png;
-分公司变更登记;https://djzc.scjg.gansu.gov.cn/gsaicEn/govLogin!govLogin.do?sid=11620000MB1663770A200013100300007;https://djzc.scjg.gansu.gov.cn/gsaicEn/govLogin!govEnLogin.do?sid=11620000MB1663770A200013100300007&authCode=CROCzx4AoDILqiIhhuikHs8ZOWcnDaxgoX&ticket=corpTicket6PRLrmnIPtRUuVTralXtI6BBbpMDNgET;不一致;200;应用存在;匹配;..\results\20220608_16-02-17\pics\分公司变更登记.png;
