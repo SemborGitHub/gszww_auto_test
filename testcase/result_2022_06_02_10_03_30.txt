@@ -1,7 +1,0 @@
-应用名称：自然人电子税务局，文档中访问地址为：https://etax.chinatax.gov.cn/。存在应用且请求该应用响应为：404。当前访问的地址为：https://etax.chinatax.gov.cn/?hkmFR120=raqpcqrIUTeIUTeIU0Exbu0vbzafA31SbBJzmZl4lwEqqqqqqqqqqqqqUa
-应用名称：电子文书查询，文档中访问地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/dzwscx/zwwdzwscx.html。存在应用且请求该应用响应为：200。当前访问的地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/dzwscx/zwwdzwscx.html
-应用名称：车购税完税查询，文档中访问地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cgswscx/zwwcgswscx.html。存在应用且请求该应用响应为：200。当前访问的地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cgswscx/zwwcgswscx.html
-应用名称：一般纳税人资格查询，文档中访问地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/ybnsrzgcx/zwwybnsrzgcx.html。存在应用且请求该应用响应为：200。当前访问的地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/ybnsrzgcx/zwwybnsrzgcx.html
-应用名称：非正常户信息查询，文档中访问地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/fzchcx/zwwfzchcx.html。存在应用且请求该应用响应为：200。当前访问的地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/fzchcx/zwwfzchcx.html
-应用名称：纳税信用级别(A级)查询，文档中访问地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/nsxycx/zwwnsrxycx.html。存在应用且请求该应用响应为：200。当前访问的地址为：https://etax.gansu.chinatax.gov.cn/wszx-web/apps/views/cx/nsxycx/zwwnsrxycx.html
-应用名称：二手房交易，文档中访问地址为：https://sbfdz.gansu.chinatax.gov.cn/fcjy/sys/vat/dzswj。存在应用且请求该应用响应为：200。当前访问的地址为：https://sbfdz.gansu.chinatax.gov.cn/fcjy/sys/vat/dzswj

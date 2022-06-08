@@ -4,12 +4,11 @@ import time
 import random
 
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException, WebDriverException
+from selenium.common.exceptions import NoSuchElementException, WebDriverException, SessionNotCreatedException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains
-# from exceptions import Exception
 
 from common.LoggerHelper import logger
 from config import conf
@@ -46,23 +45,43 @@ class ChromeHelper:
             driver_path = check_chromedriver()
             self.time_out = time_out
             self.xpath = "xpath"
+            self.id = "id"
+            self.tag_name = "tag_name"
+            self.link_text = "link_text"
+            self.partial_link_text = "partial_link_text"
+            self.name = "name"
+            self.class_name = "class_name"
+            self.css_selector = "css_selector"
             self.driver = None
             self.windows_num = 0
+            self.auto_retreat = True
             options = webdriver.ChromeOptions()
-            # if conf.common.ChromeConfig.isIncognito:
-            #     options.add_argument('--incognito')  # 隐身模式（无痕模式）
-            #     logger.debug("The chrome will use Incognito mode")
-            # if conf.common.ChromeConfig.isHeadless:
-            #     options.add_argument("--headless")  # 浏览器不提供可视化页面
-            #     logger.debug("The chrome will be headless")
+            if conf.common.ChromeConfig.isIncognito:
+                options.add_argument('--incognito')  # 隐身模式（无痕模式）
+                logger.debug("The chrome will use Incognito mode")
+            if conf.common.ChromeConfig.isHeadless:
+                options.add_argument("--headless")  # 浏览器不提供可视化页面
+                logger.debug("The chrome will be headless")
             options.add_argument("--start-maximized")  # 浏览器窗口最大化
+            options.add_experimental_option("excludeSwitches", ["enable-logging"])
+            # 添加user-agent
+            options.add_argument(
+                'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'
+                ' Chrome/102.0.0.0 Safari/537.36')
+            # window.navigator 对象是否包含 webdriver 这个属性, 在正常使用浏览器的情况下，这个属性是 undefined
+            options.add_argument("--disable-blink-features")
+            options.add_argument("--disable-blink-features=AutomationControlled")
+            # 修改get请求方法
+            script = '''
+            Object.defineProperty(navigator, 'webdriver', {
+            get: () => undefined
+            })
+            '''
             self.driver = webdriver.Chrome(executable_path=driver_path, chrome_options=options)
+            self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": script})
             logger.info("Open chrome successfully !!!")
             self.driver.implicitly_wait(self.time_out)
             logger.debug("timeout is: %s s", self.time_out)
-        # except SessionNotCreatedException as err:
-        #     logger.error(str(err.msg))
-        #     raise err
         except WebDriverException as wd_err:
             logger.error(wd_err.msg)
             raise wd_err
@@ -78,25 +97,35 @@ class ChromeHelper:
             logger.error("The parameter: timeout need to be int !!!")
             logger.info("timeout is default: %s", self.time_out)
 
+    def set_retreat_config(self, value):
+        if type(value) is not bool:
+            raise ValueError("The parameter: value need to be 'True' or 'False'.")
+        self.auto_retreat = value
+        logger.debug("Set retreat_safely: %s", str(value))
+
     def open_chrome(self, url):
         logger.info("Browse the url: %s", str(url))
         self.driver.get(str(url))
+        if conf.common.ChromeConfig.isHeadless:
+            self.auto_set_window_size()
         self.windows_num = len(self.driver.window_handles)
         logger.debug("Current window count: %s", self.windows_num)
 
     def switch_to_latest_window(self):
+        time.sleep(1)
         current_windows_num = len(self.driver.window_handles)
         if current_windows_num > self.windows_num:
             latest_window = self.driver.window_handles[-1]
             self.driver.switch_to.window(latest_window)
-            logger.info("Switch to the latest window: %s", latest_window)
+            self.auto_set_window_size()
+            logger.debug("Switch to the latest window: %s", latest_window)
             self.windows_num = current_windows_num
             logger.debug("Current window count: %s", self.windows_num)
 
     def switch_to_default_window(self):
         default_window = self.driver.window_handles[0]
         self.driver.switch_to.window(default_window)
-        logger.info("Switch to the default window: %s", default_window)
+        logger.debug("Switch to the default window: %s", default_window)
 
     def switch_to_window_by_title(self, title):
         if not title:
@@ -113,9 +142,19 @@ class ChromeHelper:
             self.retreat_safely()
             raise ValueError("Title: " + title + " is wrong!")
 
+    def switch_to_window_by_index(self, index):
+        if type(index) is not int:
+            raise TypeError("The parameter:index must be int !")
+        self.windows_num = len(self.driver.window_handles)
+        if index > self.windows_num-1:
+            raise IndexError("List index: %s out of range", index)
+        else:
+            self.driver.switch_to.window(self.driver.window_handles[index])
+
     def close_current_window(self):
         if self.driver is not None:
             self.driver.close()
+            self.driver.switch_to.window(self.driver.window_handles[-1])
 
     def close_chrome(self):
         self.driver.quit()
@@ -154,12 +193,13 @@ class ChromeHelper:
                 return element
 
     def retreat_safely(self):
-        if self.driver is not None:
-            self.get_screenshot()
-            self.driver.quit()
-            self.driver = None
-        else:
-            kill_chromedriver(is_kill_chrome=False)
+        if self.auto_retreat:
+            if self.driver is not None:
+                self.get_screenshot()
+                self.driver.quit()
+                self.driver = None
+            else:
+                kill_chromedriver(is_kill_chrome=False)
 
     def check_parm(self, by, value):
         if self.driver is None:
@@ -174,7 +214,9 @@ class ChromeHelper:
             by = By.ID
         elif by == "tag_name":
             by = By.TAG_NAME
-        elif by == "text":
+        elif by == "link_text":
+            by = By.LINK_TEXT
+        elif by == "partial_link_text":
             by = By.PARTIAL_LINK_TEXT
         elif by == "name":
             by = By.NAME
@@ -191,7 +233,7 @@ class ChromeHelper:
         by, value = self.check_parm(by=by, value=value)
         try:
             self.driver.switch_to.default_content()
-            logger.info("Start to find the element: %s", value)
+            logger.debug("Start to find the element: %s", value)
             element = self.cycle_to_find(by=by, value=value, frame_tag=frame_tag)
             # WebDriverWait(self.driver, 10, 0.5).until(ec.visibility_of(element))
             self.windows_num = len(self.driver.window_handles)
@@ -215,7 +257,7 @@ class ChromeHelper:
             element = self.find_element(by=by, value=value, frame_tag=frame_tag)
             element.click()
             logger.info("Click the element: %s", value)
-            # self.switch_to_latest_window()
+            self.switch_to_latest_window()
         except WebDriverException as wd_err:
             logger.error(wd_err.msg)
             self.retreat_safely()
@@ -226,16 +268,17 @@ class ChromeHelper:
             raise err
 
     def auto_set_window_size(self):
-        cur_window = self.driver.get_window_size()
-        cur_width = cur_window.get("width")
-        cur_height = cur_window.get("height")
-        doc_width = self.driver.execute_script("return document.body.scrollWidth")
-        doc_height = self.driver.execute_script("return document.body.scrollHeight")
-        if cur_width < doc_width or cur_height < doc_height:
-            width = max(cur_width, doc_width)
-            height = max(cur_height, doc_height)
-            self.driver.set_window_size(width, height)
-            logger.debug("Set the window size: %s x %s", width, height)
+        if conf.common.ChromeConfig.isHeadless:
+            cur_window = self.driver.get_window_size()
+            cur_width = cur_window.get("width")
+            cur_height = cur_window.get("height")
+            doc_width = self.driver.execute_script("return document.body.scrollWidth")
+            doc_height = self.driver.execute_script("return document.body.scrollHeight")
+            if cur_width < doc_width or cur_height < doc_height:
+                width = max(cur_width, doc_width)
+                height = max(cur_height, doc_height)
+                self.driver.set_window_size(width, height)
+                logger.debug("Set the window size: %s x %s", width, height)
 
     def get_screenshot(self, time_out=2):
         file_path = os.path.dirname(os.path.dirname(__file__))

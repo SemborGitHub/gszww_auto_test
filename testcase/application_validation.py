@@ -5,7 +5,8 @@ import datetime
 import xlrd
 import requests
 from config import conf
-from lcut_for_search_fun import lcut_for_search_fun
+from res_count_fun import terms_count_in_html
+from res_count_fun import lcut_for_search_fun
 from common.PortalOperate import user_login
 from common.PortalOperate import search_application
 from common.PortalOperate import switch_locale
@@ -16,7 +17,7 @@ result_data = [
 ]
 now_time = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
 # 读取excel中的内容
-data = xlrd.open_workbook('../logic/应用信息.xls')
+data = xlrd.open_workbook('D://code/gszww_auto_test/SeleniumProject/logic/应用信息.xls')
 table = data.sheet_by_name('Sheet1')
 info_dict = {}
 for i in range(table.nrows - 1):
@@ -65,11 +66,21 @@ for i in info_dict:
         continue
     all_handles = chrome.driver.window_handles
     chrome.driver.switch_to.window(all_handles[-1])
+    # 获取应用名称搜索名分词列表
+    terms_list = lcut_for_search_fun(application_name)
 
     try:
         url = chrome.driver.current_url
         r = requests.get(url, allow_redirects=False)
         response_code = r.status_code
+        if str(response_code).startswith('2'):
+            r.encoding = r.apparent_encoding
+            html_text = r.text
+            percent = terms_count_in_html(html_text, terms_list)
+            if percent > 0.9:
+                print('全匹配')
+            else:
+                print('未匹配')
     except Exception as e:
         response_code = None
         pass
