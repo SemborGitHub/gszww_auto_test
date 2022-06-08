@@ -1,7 +1,6 @@
 # coding=utf-8
 import os
 import time
-import datetime
 
 import requests
 from selenium.common.exceptions import NoSuchElementException
@@ -10,35 +9,25 @@ from config import conf
 from common.PortalOperate import user_login
 from common.PortalOperate import search_application
 from common.PortalOperate import switch_locale
-from testcase.write_excel import write_excel
+from logic.ExcelHelper.write_excel import write_excel
 from logic.ExcelHelper.ReadExcelHelper import read_excel
-from logic.UI.ChromeHelper import ChromeHelper
 from common.LoggerHelper import logger
-from res_count_fun import terms_count_in_html
-from res_count_fun import lcut_for_search_fun
+from logic.ParticipleHelper.res_count_fun import terms_count_in_html
+from logic.ParticipleHelper.res_count_fun import lcut_for_search_fun
+from logic.ExcelHelper.ResultsHelper import create_results_path
 
 
-def create_txt_file(start_time):
-    project_path = os.path.dirname(os.path.dirname(__file__))
-    txt_path = os.path.join(project_path, "results")
-    if not os.path.exists(txt_path):
-        os.mkdir(txt_path)
-    txt_name = start_time + "_result.txt"
-    txt_file = os.path.join(txt_path, txt_name)
+def create_txt_file(results_path):
+    if not os.path.exists(results_path):
+        results_path = create_results_path()
+    txt_name = "result_info.txt"
+    txt_file = os.path.join(results_path, txt_name)
     row1 = "应用名称;原文档中的应用地址;实际访问的应用地址;访问地址是否等于文档所给地址;访问状态;应用在政务网是否存在;" \
            "应用名称与页面是否匹配;截图相对路径\n"
     with open(txt_file, "a") as f:
         f.write(row1)
     return txt_file
 
-
-# def write_txt(txt_file, application_name, application_address, link_url, response_code, msg):
-#     txt = "应用名称:" + str(application_name) + ",文档中访问地址:" + str(application_address) + ",实际访问地址:" + \
-#           str(link_url) + ",响应状态:" + str(response_code) + ",结果:" + str(msg) + "\n"
-#     logger.debug(txt)
-#     print(txt)
-#     with open(txt_file, "a") as f:
-#         f.write(txt)
 
 def write_txt(txt_file, ans_list):
     record = ""
@@ -50,15 +39,13 @@ def write_txt(txt_file, ans_list):
         f.write(record)
 
 
-def get_screenshot(chrome, application_name, date):
+def get_screenshot(chrome, application_name, results_path):
 
-    path = os.path.dirname(__file__)
-    pic_path = os.path.join(path, "pics", str(date))
+    pic_path = os.path.join(str(results_path), "pics")
     if not os.path.exists(pic_path):
-        os.mkdir(pic_path)
+        os.makedirs(pic_path)
     file_name = str(application_name) + ".png"
     file_path = os.path.join(pic_path, file_name)
-
     chrome.driver.save_screenshot(file_path)
     return os.path.relpath(file_path)
 
@@ -77,7 +64,7 @@ def retry(response_code, url):
 
 
 def main():
-    start_time = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
+    results_path = create_results_path()
     # 读取excel中的内容 sheet2 为个人登录的应用  sheet1是企业登录的应用
     info_dict = read_excel("甘肃省省级事项明细.xls", "Sheet2", "业务项名称", "网办地址")
     print("读取excel文件成功...")
@@ -85,6 +72,7 @@ def main():
     print(info_dict)
     # 用户登录
     print("开始执行浏览器操作...")
+    # chrome = user_login()
     chrome = user_login()
     chrome.set_retreat_config(False)
     # 切换地州区域
@@ -100,7 +88,7 @@ def main():
                       'Chrome/95.0.4638.69 Safari/537.36'
     }
     # 定义结果列表
-    txt_file = create_txt_file(start_time)
+    txt_file = create_txt_file(results_path)
     print("记录txt文件：", txt_file)
     result_data = [
         ['应用名称', '原文档中的应用地址', '实际访问的应用地址', '访问地址是否等于文档所给地址', '访问状态',
@@ -169,20 +157,21 @@ def main():
                     terms_matching_result = '匹配'
                 else:
                     terms_matching_result = '不匹配'
+
             msg = msg2
             success_num = success_num + 1
-            img_path = get_screenshot(chrome, application_name, start_time)
+            img_path = get_screenshot(chrome, application_name, results_path)
             chrome.close_current_window()
         except NoSuchElementException:
             response_code = "error"
             msg = msg1
             failure_num = failure_num + 1
-            img_path = get_screenshot(chrome, application_name, start_time)
+            img_path = get_screenshot(chrome, application_name, results_path)
 
         except Exception:
             msg = msg3
             failure_num = failure_num + 1
-            img_path = get_screenshot(chrome, application_name, start_time)
+            img_path = get_screenshot(chrome, application_name, results_path)
             chrome.close_current_window()
         finally:
             ans_list = [
@@ -197,9 +186,9 @@ def main():
     print("*" * 60 + info + "*" * 60)
 
     chrome.close_chrome()
-    # noinspection PyBroadException
-    write_excel(result_data, start_time)
+    write_excel(result_data, results_path)
 
+    print("执行结果存放于:", results_path)
     print("执行完成.")
 
 

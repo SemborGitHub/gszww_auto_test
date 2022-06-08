@@ -18,7 +18,6 @@ def read_excel(filename, sheet_name, *args):
         data = xlrd.open_workbook(excel_path)
         table = data.sheet_by_name(sheet_name)
         table_dict = {}
-        print(table)
         if len(args) == 0:
             for i in range(table.nrows):
                 row_data = table.row_values(i)

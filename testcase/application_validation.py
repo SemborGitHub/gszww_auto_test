@@ -5,12 +5,12 @@ import datetime
 import xlrd
 import requests
 from config import conf
-from res_count_fun import terms_count_in_html
-from res_count_fun import lcut_for_search_fun
+from logic.ParticipleHelper.res_count_fun import terms_count_in_html
+from logic.ParticipleHelper.res_count_fun import lcut_for_search_fun
 from common.PortalOperate import user_login
 from common.PortalOperate import search_application
 from common.PortalOperate import switch_locale
-from testcase.write_excel import write_excel
+from logic.ExcelHelper.write_excel import write_excel
 
 result_data = [
     ['应用名称', '原文档中的应用地址', '实际访问的应用地址', '访问状态', '应用在政务网是否存在', '是否通过']

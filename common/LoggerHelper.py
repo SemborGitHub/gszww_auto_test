@@ -17,6 +17,8 @@ def get_logger():
     date = time.strftime("%Y-%m-%d", time.localtime(time.time()))
     log_name = date + "_pytest_execution"
     file_name = os.path.join(os.path.dirname(os.path.dirname(__file__)), "log", log_name + ".log")
+    if not os.path.exists(os.path.dirname(file_name)):
+        os.makedirs(os.path.dirname(file_name))
 
     logger_handler = logging.getLogger(log_name)
     logger_handler.setLevel(logging.DEBUG)
