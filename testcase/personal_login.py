@@ -50,17 +50,27 @@ def get_screenshot(chrome, application_name, results_path):
     return os.path.relpath(file_path)
 
 
-def retry(response_code, url):
+def retry(response_code, url, chrome):
     if str(response_code).startswith('4') or str(response_code).startswith('5'):
         time.sleep(2)
         logger.info("重新访问： %s", url)
         try:
-            r = requests.get(url, allow_redirects=False, timeout=5)
+            r = request_get_by_cookies(chrome, url)
             response_code = r.status_code
         except Exception as e:
             raise e
 
     return response_code
+
+
+def request_get_by_cookies(chrome, url):
+    requests_session = requests.Session()
+    selenium_user_agent = chrome.driver.execute_script("return navigator.userAgent;")
+    requests_session.headers.update({"user-agent": selenium_user_agent})
+    for cookie in chrome.driver.get_cookies():
+        requests_session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'])
+    resp = requests_session.get(url, verify=False)
+    return resp
 
 
 def main():
@@ -146,15 +156,10 @@ def main():
                 is_same = '一致'
             else:
                 is_same = '不一致'
-            requests_session = requests.Session()
-            selenium_user_agent = chrome.driver.execute_script("return navigator.userAgent;")
-            requests_session.headers.update({"user-agent": selenium_user_agent})
-            for cookie in chrome.driver.get_cookies():
-                requests_session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'])
-            resp = requests_session.get(url, verify=False)
-            # r = requests.get(url, allow_redirects=False, headers=headers, timeout=5)
+            resp = request_get_by_cookies(chrome, url)
+
             response_code = resp.status_code
-            response_code = retry(response_code, url)
+            response_code = retry(response_code, url, chrome)
 
             if str(response_code).startswith('2') or str(response_code).startswith('3'):
                 html_text = chrome.driver.page_source
@@ -174,13 +179,12 @@ def main():
             failure_num = failure_num + 1
             img_path = get_screenshot(chrome, application_name, results_path)
 
-        except Exception as e:
+        except Exception:
 
             msg = msg3
             failure_num = failure_num + 1
             img_path = get_screenshot(chrome, application_name, results_path)
             chrome.close_current_window()
-            raise Exception(e)
         finally:
             ans_list = [
                 str(application_name), str(application_address), str(link_url), str(is_same), str(response_code),
